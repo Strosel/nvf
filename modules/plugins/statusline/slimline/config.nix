@@ -10,9 +10,9 @@
   cfg = config.vim.statusline.slimline;
 in {
   vim = mkIf cfg.enable {
-    startPlugins = ["slimline"];
+    startPlugins = ["slimline-nvim"];
 
-    pluginRC.slimline = entryAnywhere ''
+    pluginRC.slimline-nvim = entryAnywhere ''
       require("slimline").setup(${toLuaObject cfg.setupOpts})
     '';
   };

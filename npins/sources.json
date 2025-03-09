@@ -737,6 +737,18 @@
       "url": "https://github.com/hoob3rt/lualine.nvim/archive/f4f791f67e70d378a754d02da068231d2352e5bc.tar.gz",
       "hash": "12jm3vc3mi0p9kjw7g1cd6a9nkgws1mvq2h7lpfmflad8zfmw35q"
     },
+    "slimline-nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "sschleemilch",
+        "repo": "slimline.nvim"
+      },
+      "branch": "main",
+      "revision": "5a7e91619496c4655e02e7ba26aae6b9a5b5a564",
+      "url": "https://github.com/sschleemilch/slimline.nvim/archive/5a7e91619496c4655e02e7ba26aae6b9a5b5a564.tar.gz",
+      "hash": "0xl45ykfcdwfy2j2nh3iax4fk7fm9kv040j5fmq1fc4wz07jcm3h"
+    },
     "luasnip": {
       "type": "Git",
       "repository": {
